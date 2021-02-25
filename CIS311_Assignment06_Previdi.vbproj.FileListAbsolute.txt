@@ -1,0 +1,14 @@
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\bin\Debug\CIS311_Assignment06_Previdi.exe.config
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\bin\Debug\CIS311_Assignment06_Previdi.exe
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\bin\Debug\CIS311_Assignment06_Previdi.pdb
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\bin\Debug\CIS311_Assignment06_Previdi.xml
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.vbprojAssemblyReference.cache
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.frmCalcChild.resources
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.frmCalcutron.resources
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.Resources.resources
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.vbproj.GenerateResource.cache
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.vbproj.CoreCompileInputs.cache
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.exe
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.xml
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.pdb
+C:\Users\previ\source\repos\CIS311_Assignment06_Previdi\CIS311_Assignment06_Previdi\obj\Debug\CIS311_Assignment06_Previdi.frmAbout.resources
