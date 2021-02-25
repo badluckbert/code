@@ -1,0 +1,130 @@
+CREATE DATABASE CollegeInformationSystem;
+USE CollegeInformationSystem;
+
+CREATE TABLE Department(
+    DepCode VARCHAR(4) PRIMARY KEY,
+    DepName VARCHAR(30),
+    Building VARCHAR(20)
+);
+
+CREATE TABLE Faculty(
+    FacultyID INT PRIMARY KEY,
+    FacultyName VARCHAR(20) NOT NULL,
+    FacultyEmail VARCHAR(20),
+    DepCode VARCHAR(4) NOT NULL,
+    OfficeRoom VARCHAR(5),
+    PhoneExtension SMALLINT,
+    FOREIGN KEY (DepCode) REFERENCES Department(DepCode)
+);
+
+CREATE TABLE Student(
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(20),
+    StudentEmail VARCHAR(20),
+    PhoneNumber CHAR(9)
+);
+
+CREATE TABLE Course(
+    DepCode VARCHAR(4),
+    CourseCode SMALLINT,
+    Suffix CHAR(1),
+    CourseName VARCHAR(30),
+    CreditNumber INT,
+    PRIMARY KEY (DepCode, CourseCode),
+    FOREIGN KEY (DepCode) REFERENCES Department(DepCode)
+);
+
+CREATE TABLE Section(
+    DepCode VARCHAR(4),
+    CourseCode SMALLINT,
+    SectionNumber SMALLINT,
+    SemesterCode CHAR(4) NOT NULL,
+    FacultyID INT,
+    Room VARCHAR(5),
+    Days VARCHAR(4),
+    Time VARCHAR(12),
+    PRIMARY KEY (DepCode, CourseCode, SectionNumber),
+    FOREIGN KEY (DepCode) REFERENCES Department(DepCode),
+    FOREIGN KEY (CourseCode) REFERENCES Course(CourseCode),
+    FOREIGN KEY (SemesterCode) REFERENCES Semester(SemesterCode),
+    FOREIGN KEY (FacultyID) REFERENCES Faculty(FacultyName)
+);
+
+CREATE TABLE Semester(
+    SemesterCode CHAR(4) PRIMARY KEY,
+    Semester VARCHAR(6),
+    Year YEAR
+);
+
+CREATE TABLE Major(
+    MajorCode VARCHAR(5) PRIMARY KEY,
+    DepCode VARCHAR(4),
+    RequireCredits SMALLINT,
+    FOREIGN KEY (DepCode) REFERENCES Department(DepCode)
+);
+
+CREATE TABLE Advises(
+    StudentID INT, 
+    MajorCode VARCHAR(5),
+    FacultyID INT NOT NULL,
+    PRIMARY KEY (StudentID, MajorCode),
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+    FOREIGN KEY (MajorCode) REFERENCES Major(MajorCode),
+    FOREIGN KEY (FacultyID) REFERENCES Faculty(FacultyID)
+    );
+
+INSERT INTO Department
+VALUES ('CSIS', 'Computer Science and Information Systems', 'Science East');
+INSERT INTO Department
+VALUES ('COMM', 'Communications', 'Brown');
+INSERT INTO Department
+VALUES ('MUS', 'Music', 'Arbury');
+
+INSERT INTO Faculty
+VALUES (0653424, 'Scott James', 'sjames@svsu.edu', 'CSIS', 'SE140', 4555);
+INSERT INTO Faculty
+VALUES (1265341, 'Shelly Mayle', 'smmayle@svsu.edu', 'COMM', 'B304', 3423);
+INSERT INTO Faculty 
+VALUES (0549909, 'Brandon Haskett', 'bmhaskett@svsu.edu', 'MUS', 'A203', 4005);
+
+INSERT INTO Student
+VALUES (0659862, 'Brett Previdi', 'bcprevid@svsu.edu', 5862461929);
+INSERT INTO Student
+VALUES (0656890, 'James Smith', 'jtsmith@svsu.edu', 2468618447);
+INSERT INTO Student
+VALUES (0732998, 'Sarah Miller', 'skmiller@svsu.edu', 8106428674);
+
+INSERT INTO Course
+VALUES ('CIS', 333, NULL, 'Assembly Language and Computer Logic', 4);
+INSERT INTO Course
+VALUES ('COMM', 105, 'A', 'Intro to Communications', 3);
+INSERT INTO Course
+VALUES ('MUS', 117, 'B', 'Non-Western Music', 3);
+
+INSERT INTO Section
+VALUES ('CIS', 333, 901, 'FA20', 0653424, NULL, 'MW', '10:30AM-12:20PM');
+INSERT INTO Section
+VALUES ('COMM', 105, 02, 'SU19', 1265341, 'C222', 'TH', '10:00AM-11:30AM');
+INSERT INTO Section
+VALUES ('MUS', 117, 71, 'WI20', 0549909, 'A104', 'H', '1:00PM-2:30PM');
+
+INSERT INTO Semester
+VALUES ('SU19', 'Summer', 2019);
+INSERT INTO Semester
+VALUES ('WI20', 'Winter', 2020);
+INSERT INTO Semester
+VALUES ('FA20', 'Fall', 2020);
+
+INSERT INTO Major
+VALUES ('CIS', 'CSIS', 126);
+INSERT INTO Major
+VALUES ('MUSE', 'MUS', 135);
+INSERT INTO Major
+VALUES ('COMM', 'COMM', 124);
+
+INSERT INTO Advises
+VALUES (0659862, 'CIS', 0653424);
+INSERT INTO Advises
+VALUES (0656890, 'COMM',1265341);
+INSERT INTO Advises
+VALUES (0732998, 'MUSE', 0549909);
