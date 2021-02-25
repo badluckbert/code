@@ -1,0 +1,179 @@
+<?php 
+
+/**
+* file:    as08.php
+* author:  george corser (george@corser.com)
+* date:    Wed Feb 10 2021
+* description: this program implements the code
+*   from Chapter 13 of the textbook, 
+*   Fundamentals of Web Development
+*/
+
+error_reporting(0);
+
+// Implement class Artist
+class Artist {
+	
+	public static $artistCount = 0;
+	
+	private $firstName;
+	private $lastName;
+	private $birthDate;
+	private $birthCity;
+	private $deathDate;
+	
+	public function getFirstName() {
+		return $this->firstName;
+	}
+	public function setFirstName($name) {
+		$this->firstName = $name;
+	}
+	
+	function construct($firstName, 
+	  $lastName, $city, $birth,$death=null) {
+	  self::$artistCount++;
+	  $this->firstName = $firstName;
+	  $this->lastName  = $lastName;
+	  $this->birthCity = $city;
+	  $this->birthDate = $birth;
+	  $this->deathDate = $death;
+	}
+}
+
+// Instantiate class Artist: 
+// object "picasso"
+$picasso = new Artist(
+  "Pablo", 
+  "Picasso", 
+  "Malaga", 
+  "October 25 1881",
+  "April 8 1973"
+); 
+
+echo Artist::$artistCount . "<br>";
+
+
+$picasso2 = new Artist(
+  "Jim Bob", 
+  "Picasso", 
+  "Malaga", 
+  "October 25 1881",
+  "April 8 1973"
+); 
+
+echo Artist::$artistCount . "<br>";
+
+
+var_dump($picasso);
+
+echo $picasso->getFirstName() . "<br>";
+
+$picasso->setFirstName("Fred");
+
+echo $picasso->getFirstName(); 
+
+$picasso->firstName = "Pablo";
+$picasso->lastName  = "Picasso";
+$picasso->birthCity = "Malaga";
+$picasso->birthDate = "October 25 1881";
+$picasso->deathDate = "April 8 1973";
+
+// Create function to print Artist objects
+function printArtist($artistObject) {
+	echo $artistObject->firstName . " " 
+	. $artistObject->lastName . " " 
+	. $artistObject->birthCity . " " 
+	. $artistObject->birthDate . " " 
+	. $artistObject->deathDate ;
+}
+
+// Actually print the "picasso" object
+printArtist ($picasso);
+
+class Art {
+	
+	private $name;
+	private $artist;
+	private $createdYear;
+	
+    function construct($name, 
+	  $artist, $createdYear) {
+	    $this->name = $name;
+		$this->artist = $artist;
+		$this->createdYear = $createdYear;
+	  }
+	public function toString () {
+		echo "Art name: " . $name;
+	}
+	public function getName() {
+		return $this->name;
+	}
+	public function setName($name) {
+		$this->name = $name;
+	}
+	
+}
+
+class Painting extends Art {
+	
+	public $medium;
+
+	function construct($medium){
+		$this->medium = $medium;
+	}
+	public function getMedium(){
+	return $this->medium;
+	}
+	public function setMedium($medium){
+	$this->medium = $medium;
+	}
+	public function toString(){
+	echo "Painting medium: " . $medium;
+	}
+}
+
+class Sculpture extends Art {
+
+	public $medium;
+
+	function construct($medium){
+		$this->medium = $medium;
+	}
+	public function getMedium(){
+		return $this->medium;
+	}
+	public function setMedium($medium){
+		$this->medium = $medium;
+	}
+	public function toString(){
+		echo "Sculpture  medium: " . $medium;
+	}
+}
+
+var_dump($michaelangelo);
+
+echo $michaelangelo->getFirstName() . "<br>";
+
+$michaelangelo->setFirstName("Michaelangelo");
+
+echo $michaelangelo->getFirstName(); 
+
+$michaelangelo->firstName = "Michaelangelo";
+$michaelangelo->lastName  = "Simoni";
+$michaelangelo->birthCity = "Tuscany";
+$michaelangelo->birthDate = "March 6 1475";
+$michaelangelo->deathDate = "February 16 1564";
+
+printArtist($michaelangelo);
+
+$guernica = new Painting ("guernica", $picasso, 1934);
+$guernica->medium = "oil";
+toString($guarnica);
+
+$david = new Scultupre("David", $michaelangelo, 1504);
+$david->medium = "marble";
+toString($david);
+
+echo "<br><br>";
+
+var_dump($guernica); 
