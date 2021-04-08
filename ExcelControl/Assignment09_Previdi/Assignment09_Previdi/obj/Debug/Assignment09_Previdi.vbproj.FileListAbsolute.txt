@@ -1,0 +1,12 @@
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.vbprojAssemblyReference.cache
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.vbproj.ResolveComReference.cache
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.Resources.resources
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.vbproj.GenerateResource.cache
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.vbproj.CoreCompileInputs.cache
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\bin\Debug\Assignment09_Previdi.exe.config
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\bin\Debug\Assignment09_Previdi.exe
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\bin\Debug\Assignment09_Previdi.pdb
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\bin\Debug\Assignment09_Previdi.xml
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.exe
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.xml
+C:\Users\previ\source\repos\Assignment09_Previdi\Assignment09_Previdi\obj\Debug\Assignment09_Previdi.pdb
