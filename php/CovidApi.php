@@ -2,6 +2,7 @@
 main();
 function main () {
 	
+    echo '<a href="https://github.com/badluckbert/code/blob/main/php/CovidApi.php">GithubCode</a>';
 	$apiCall = 'https://api.covid19api.com/summary';
 	$json_string = file_get_contents($apiCall); 
 	$json_string = curl_get_contents($apiCall);
