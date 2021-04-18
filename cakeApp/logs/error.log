@@ -1,0 +1,279 @@
+2021-04-18 00:58:46 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/view/
+Client IP: 127.0.0.1
+
+
+2021-04-18 00:58:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/view/first-post
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:00:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/index
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:01:25 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/index
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:01:27 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/index
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:02:31 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/index
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:03:58 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/view
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:04:06 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /articles/view/first-post
+Client IP: 127.0.0.1
+
+
+2021-04-18 01:04:27 Error: [Cake\Http\Exception\MissingControllerException] Controller class Index could not be found. in C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeApp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeApp\webroot\index.php:40
+
+Request URL: /index
+Client IP: 127.0.0.1
+
+
